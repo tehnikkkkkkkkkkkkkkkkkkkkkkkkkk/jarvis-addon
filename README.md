@@ -1,4 +1,5 @@
-# Jarvis Alerts — аддон для Meteor Client (Minecraft 1.21.11, Fabric) Аддон полность сделан Claude, я багов не обнаружил.
+# Jarvis Alerts — аддон для Meteor Client (Minecraft 1.21.11, Fabric) 
+# Аддон полность сделан Claude, я багов не обнаружил.
 
 
 Модуль **jarvis-alerts** в категории **Jarvis**. Озвучивает события только у ДРУГИХ игроков:
