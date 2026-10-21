@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "jarvis-alerts",
+  "version": "1.0.0",
+  "name": "Jarvis Alerts",
+  "description": "Meteor Client addon: voice alerts for totem pops, armor breaks and low HP of other players.",
+  "authors": [
+    "Tehnik, Claude"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.jarvis.addon.JarvisAddon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "0,170,255",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "meteor-client": "*"
+  }
+}
